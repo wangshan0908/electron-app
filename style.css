@@ -1,0 +1,22 @@
+/* style.css */
+body { font-family: "Microsoft Yahei"; padding: 30px; }
+.memory-item,
+.disk-item {
+  border: 1px solid #eee;
+  padding: 16px;
+  margin: 10px 0;
+  border-radius: 8px;
+  max-width: 700px;
+}
+.bar-box {
+  width: 100%;
+  height: 14px;
+  background: #eee;
+  border-radius: 7px;
+  margin: 8px 0;
+}
+.bar-used {
+  height: 100%;
+  background: #409eff;
+  border-radius: 7px;
+}
