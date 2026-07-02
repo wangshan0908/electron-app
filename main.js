@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const registerIpc = require('./ipcRegister')
-
+const { updateElectronApp } = require('update-electron-app')
+updateElectronApp()
 // 启动时一次性注册全部IPC
 registerIpc()
 const createWindow = ()=>{
